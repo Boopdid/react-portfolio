@@ -6,10 +6,10 @@ import { BellIcon, MenuIcon, XIcon } from '@heroicons/react/outline';
 import { useLocation } from 'react-router-dom';
 
 const navigation = [
-  { name: 'Home', href: '/' },
-  { name: 'About', href: '/about' },
-  { name: 'Projects', href: '/projects' },
-  { name: 'Contact', href: '/contact-me' },
+  { name: 'Home', href: '/react-portfolio/' },
+  { name: 'About', href: '/react-portfolio/#/about' },
+  { name: 'Projects', href: '/react-portfolio/#/projects' },
+  { name: 'Contact', href: '/react-portfolio/#/contact-me' },
 ];
 
 function classNames(...classes) {
