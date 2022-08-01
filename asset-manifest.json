@@ -1,0 +1,19 @@
+{
+  "files": {
+    "main.css": "/Boopdid/react-portfolio/static/css/main.da828335.css",
+    "main.js": "/Boopdid/react-portfolio/static/js/main.154c76a5.js",
+    "static/js/787.a2cb61a6.chunk.js": "/Boopdid/react-portfolio/static/js/787.a2cb61a6.chunk.js",
+    "static/media/park-pass.png": "/Boopdid/react-portfolio/static/media/park-pass.372ae6260c6c7ceecd9d.png",
+    "static/media/climbing.jpg": "/Boopdid/react-portfolio/static/media/climbing.990e0ff30d32b8cfac2f.jpg",
+    "static/media/peter-react-photo.JPG": "/Boopdid/react-portfolio/static/media/peter-react-photo.47148669073cb11cf4d4.JPG",
+    "static/media/teacup-yorkies.png": "/Boopdid/react-portfolio/static/media/teacup-yorkies.005afd3510b90eed3f9b.png",
+    "index.html": "/Boopdid/react-portfolio/index.html",
+    "main.da828335.css.map": "/Boopdid/react-portfolio/static/css/main.da828335.css.map",
+    "main.154c76a5.js.map": "/Boopdid/react-portfolio/static/js/main.154c76a5.js.map",
+    "787.a2cb61a6.chunk.js.map": "/Boopdid/react-portfolio/static/js/787.a2cb61a6.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.da828335.css",
+    "static/js/main.154c76a5.js"
+  ]
+}
