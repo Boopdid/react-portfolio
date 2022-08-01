@@ -3,6 +3,7 @@ import React from 'react';
 import { Fragment } from 'react';
 import { Disclosure, Menu, Transition } from '@headlessui/react';
 import { BellIcon, MenuIcon, XIcon } from '@heroicons/react/outline';
+import { useLocation } from 'react-router-dom';
 
 const navigation = [
   { name: 'Home', href: '/' },
@@ -16,6 +17,8 @@ function classNames(...classes) {
 }
 
 const Navigation = (props) => {
+  const location = useLocation();
+
   return (
     <Disclosure as='nav' className='bg-prussian-blue'>
       {({ open }) => (
@@ -41,12 +44,14 @@ const Navigation = (props) => {
                         key={item.name}
                         href={item.href}
                         className={classNames(
-                          item.current
-                            ? 'bg-gray-900 text-white'
+                          item.href == location.pathname
+                            ? 'text-selective-yellow'
                             : 'text-gray-300 hover:text-selective-yellow',
                           'px-3 py-2 rounded-md text-sm font-medium'
                         )}
-                        aria-current={item.current ? 'page' : undefined}
+                        aria-current={
+                          item.href == location.pathname ? 'page' : undefined
+                        }
                       >
                         {item.name}
                       </a>
@@ -65,12 +70,14 @@ const Navigation = (props) => {
                   as='a'
                   href={item.href}
                   className={classNames(
-                    item.current
-                      ? 'bg-gray-900 text-white'
-                      : 'text-gray-300 hover:bg-gray-700 hover:text-white',
+                    item.href == location.pathname
+                      ? 'text-selective-yellow'
+                      : 'text-gray-300 hover:text-selective-yellow ',
                     'block px-3 py-2 rounded-md text-base font-medium'
                   )}
-                  aria-current={item.current ? 'page' : undefined}
+                  aria-current={
+                    item.href == location.pathname ? 'page' : undefined
+                  }
                 >
                   {item.name}
                 </Disclosure.Button>
