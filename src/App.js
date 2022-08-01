@@ -11,7 +11,7 @@ import { BrowserRouter as Router, Routes, Route, Link } from 'react-router-dom';
 
 function App() {
   return (
-    <Router basename={'/react-portfolio/'}>
+    <Router>
       <div className='flex flex-col min-h-screen bg-prussian-blue mx-auto px-2 sm:px-6 lg:px-8'>
         <Header>
           <Navigation />
