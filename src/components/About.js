@@ -14,7 +14,7 @@ const About = (props) => {
           </div>
           <p>
             I come from a background of retail sales and merchandising. I have
-            recently completeled the full stack bootcamp thru the University of
+            recently completed the full stack bootcamp thru the University of
             Denver. Throughout the course, I gained the skills to create a MERN
             ( MongoDB, Express, React, Node ) application, and I am really
             excited to continue my journey into this field!
