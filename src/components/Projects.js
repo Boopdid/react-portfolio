@@ -2,6 +2,7 @@ import Title from './Title';
 import Project from './Project';
 import parkpassimage from '../images/park-pass.png';
 import teacupyorkie from '../images/teacup-yorkies.png';
+import clackshack from '../images/clack-shack.png';
 
 let projects = [
   {
@@ -23,7 +24,8 @@ let projects = [
   {
     title: 'Clickity-Clack-Shack',
     githubLink: 'https://github.com/Boopdid/clickity-clack-shack',
-    // demoLink: 'https://google.com' ,
+    demoLink: 'https://clickity-clack-shack.herokuapp.com/',
+    image: clackshack,
     description:
       '(Work in Progress) An ecommerce site for tabletop, dice and board games. I am building this website using the MERN (Mongo Express React Node) stack.',
   },

@@ -1,6 +1,8 @@
 import Title from './Title';
+import React, { useState } from 'react';
 
 const Contact = (props) => {
+  const [status, setStatus]
   return (
     <>
       <div className='flex justify-center'>

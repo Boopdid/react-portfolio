@@ -6,7 +6,7 @@ const Home = (props) => {
     <>
       <div className='text-white text-center'>
         <div className='w-2/5 m-auto rounded-md overflow-hidden pb-6'>
-          <img src={Picture} alt='Portfolio Photo' />
+          <img src={Picture} alt='Photo of Peter' />
         </div>
         <div className='flex justify-center'>
           <Title
