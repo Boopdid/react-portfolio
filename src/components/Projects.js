@@ -6,12 +6,12 @@ import clackshack from '../images/clack-shack.png';
 
 let projects = [
   {
-    title: 'Park-Pass',
-    githubLink: 'https://github.com/gokublue007/Park-Pass',
-    demoLink: 'https://gokublue007.github.io/Park-Pass/',
-    image: parkpassimage,
+    title: 'Clickity-Clack-Shack',
+    githubLink: 'https://github.com/Boopdid/clickity-clack-shack',
+    demoLink: 'https://clickity-clack-shack.herokuapp.com/',
+    image: clackshack,
     description:
-      'Our task was to create a website that can provide information related to any and every National Park in the U.S. requiring only the name of the National Park as input.',
+      'An ecommerce site for tabletop, dice and board games. I built this website using the MERN (Mongo Express React Node) stack.',
   },
   {
     title: 'Teacup-Yorkies',
@@ -22,12 +22,12 @@ let projects = [
       "This application is a collaboratively developed social media application using the full-stack MVC paradigm. The concept is a social media website for pet-oriented content and showcasing a user's pet with pictures, traits and personality. It's also a place for interacting with other pet owners. We like to think of it as a twitter-like website for our furry friends.",
   },
   {
-    title: 'Clickity-Clack-Shack',
-    githubLink: 'https://github.com/Boopdid/clickity-clack-shack',
-    demoLink: 'https://clickity-clack-shack.herokuapp.com/',
-    image: clackshack,
+    title: 'Park-Pass',
+    githubLink: 'https://github.com/gokublue007/Park-Pass',
+    demoLink: 'https://gokublue007.github.io/Park-Pass/',
+    image: parkpassimage,
     description:
-      '(Work in Progress) An ecommerce site for tabletop, dice and board games. I am building this website using the MERN (Mongo Express React Node) stack.',
+      'Our task was to create a website that can provide information related to any and every National Park in the U.S. requiring only the name of the National Park as input.',
   },
 ];
 

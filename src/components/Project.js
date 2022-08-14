@@ -24,6 +24,8 @@ const Project = ({ githubLink, demoLink, title, image, description }) => {
           <a
             className='text-center flex-grow p-2 rounded text-white bg-tangerine hover:shadow-lg'
             href={githubLink}
+            target='_blank'
+            rel='noreferrer'
           >
             Github
           </a>
@@ -32,6 +34,8 @@ const Project = ({ githubLink, demoLink, title, image, description }) => {
           <a
             className='text-center flex-grow p-2 rounded text-white bg-tangerine hover:shadow-lg'
             href={demoLink}
+            target='_blank'
+            rel='noreferrer'
           >
             {' '}
             Demo{' '}

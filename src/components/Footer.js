@@ -25,7 +25,7 @@ const Footer = () => {
           {navigation.map((item) => (
             <a key={item.name} href={item.href}>
               <span className='sr-only'>{item.name}</span>
-              <item.icon className='h-6 w-6' aria-hiddem='true' />
+              <item.icon className='h-6 w-6' aria-hidden='true' />
             </a>
           ))}
         </div>

@@ -1,8 +1,7 @@
 import React from 'react';
 /* This example requires Tailwind CSS v2.0+ */
-import { Fragment } from 'react';
-import { Disclosure, Menu, Transition } from '@headlessui/react';
-import { BellIcon, MenuIcon, XIcon } from '@heroicons/react/outline';
+import { Disclosure } from '@headlessui/react';
+import { MenuIcon, XIcon } from '@heroicons/react/outline';
 import { useLocation } from 'react-router-dom';
 
 const navigation = [
@@ -44,13 +43,13 @@ const Navigation = (props) => {
                         key={item.name}
                         href={item.href}
                         className={classNames(
-                          item.href == location.pathname
+                          item.href === location.pathname
                             ? 'text-selective-yellow'
                             : 'text-gray-300 hover:text-selective-yellow',
                           'px-3 py-2 rounded-md text-sm font-medium'
                         )}
                         aria-current={
-                          item.href == location.pathname ? 'page' : undefined
+                          item.href === location.pathname ? 'page' : undefined
                         }
                       >
                         {item.name}
@@ -70,13 +69,13 @@ const Navigation = (props) => {
                   as='a'
                   href={item.href}
                   className={classNames(
-                    item.href == location.pathname
+                    item.href === location.pathname
                       ? 'text-selective-yellow'
                       : 'text-gray-300 hover:text-selective-yellow ',
                     'block px-3 py-2 rounded-md text-base font-medium'
                   )}
                   aria-current={
-                    item.href == location.pathname ? 'page' : undefined
+                    item.href === location.pathname ? 'page' : undefined
                   }
                 >
                   {item.name}
